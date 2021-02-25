@@ -1,4 +1,5 @@
 import React from "react";
+import { CompletedChallanges } from "../components/CompletedChallanges";
 
 import { ExperienceBar } from "../components/ExperienceBar";
 import { Profile } from "../components/Profile";
@@ -13,6 +14,7 @@ export default function Home() {
       <section>
         <div>
           <Profile />
+          <CompletedChallanges />
         </div>
         <div>
 
