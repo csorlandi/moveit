@@ -9,7 +9,7 @@ let countdownTimeout: NodeJS.Timeout;
 export function Countdown() {
   const { startNewChallange } = useContext(ChallangesContext);
 
-  const [time, setTime] = useState(0.1 * 60);
+  const [time, setTime] = useState(0.05 * 60);
   const [isActive, setIsActive] = useState(false);
   const [hasFinished, setHasFinished] = useState(false);
 
@@ -38,7 +38,7 @@ export function Countdown() {
   function resetCountdown() {
     setIsActive(false);
     clearTimeout(countdownTimeout);
-    setTime(0.1 * 60);
+    setTime(0.05 * 60);
   }
 
   return (
