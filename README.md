@@ -22,6 +22,7 @@
   <img src="./screenshots/home.png" width="45%" />
   <img src="./screenshots/home-cycle-started.png" width="45%" />
   <img src="./screenshots/home-cycle-finished.png" width="45%" />
+  <img src="./screenshots/home-level-up.png" width="45%" />
 </p>
 
 ---
@@ -30,6 +31,7 @@
 
 <ul>
   <li><a href="#-getting-started">Getting Started</a></li>
+  <li><a href="#-challenges">Chalenges</a></li>
   <li><a href="#-features">Features</a></li>
   <li><a href="#-contributing">Contributing</a></li>
   <li><a href="#-support">Support</a></li>
@@ -72,6 +74,34 @@ https://github.com/csorlandi/study-moveit-frontend
     npm run dev
     ```
 - Be Happy! 😆
+
+---
+
+## ⚔ Challenges
+
+  - [ ] Create Documentation
+    - [ ] GIF
+    - [ ] Example Video
+    - [x] Awesome Readme
+    - [x] Techs used
+    - [x] Project Setup
+    - [ ] Features
+    - [x] Pages Prints
+  - [ ] Improve Styles
+    - [ ] Few adjustments to make the style equal to the layout
+    - [ ] Add Media queries
+    - [ ] Create Theme Switcher
+    - [ ] Create Dark Theme
+  - [ ] Add PWA Feature
+  - [ ] Timer to drop the current cycle
+  - [ ] move.it 2.0
+    - [ ] Few adjustments to make the style equal to the layout
+    - [ ] SignIn Page
+    - [ ] Github login
+    - [ ] Sidebar Menu
+    - [ ] Leaderboard
+    - [ ] Twitter Sharing Button
+    - [ ] Generate Twitter thumb to share
 
 ---
 
